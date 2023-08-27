@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <style>
+        body {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="simple_select.php">
+        메시지를 표시합니다. <br>
+        <input type="submit" value="확인">
+    </form>
+    <br>
+    <form method="post" action="simple_insert.php">
+        이름 입력<input type="text" name="a1"><br>
+        제목 입력<input type="text" name="a2"><br>
+        메시지 입력<input type="text" name="a3" size=50><br>
+        <input type="submit" value="확인">
+    </form>
+    <br>
+    <form method="post" action="simple_delete.php">
+        삭제 번호 입력<input type="text" name="b1"><br>
+        <input type="submit" value="확인">
+    </form>
+    <br>
+    <form method="post" action="simple_search.php">
+        검색키워드 입력<input type="text" name="c1"><br>
+        <input type="submit" value="확인">
+    </form>
+</body>
+</html>
