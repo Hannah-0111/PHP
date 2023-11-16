@@ -2,8 +2,6 @@
 
 $xml = file_get_contents('https://feeds.feedburner.com/zdkorea');
 
-// echo $myxml;
-
 $xmldom = simplexml_load_string($xml);
 
 echo "<h1>".$xmldom->channel->title."</h1>";
